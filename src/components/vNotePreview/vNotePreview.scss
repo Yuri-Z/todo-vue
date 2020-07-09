@@ -1,0 +1,19 @@
+.note-preview {
+  &__title {
+  
+  }
+  &__todo-list {
+    display: flex;
+    flex-flow: column;
+  }
+  &__list-item {
+    user-select: none;
+  }
+  &__list-item-name {
+    
+    &_checked {
+      text-decoration: line-through;
+      color: #888;
+    }
+  }
+}
